@@ -1,0 +1,961 @@
+********* HITACHI Interview Questions *********
+1- webdriver code to login with setup and tear down
+2- sendkeys aleternate - using Javascript executor
+3- Legacy application, what would be test approach for automation
+4- Testng annotations
+5- exceptions handling and test that- using assert.throws();
+6- asyncronous handling for request- using async wait and promises
+7- mocking test data and mockicto usage
+8- what is the wait mechanism used in selenum framework, can we use both implicit and explicit wait for same script?
+9- Handling frames if Id or name is not present.
+
+***********Linked In SDET Interview Questions-------
+1️⃣ First round: Duration 1 hour
+Focused mainly on Java coding
+1. Does Map supports null keys?
+2. Can we use declare constructor static in java?
+3. Can we override and overload static methods in java?
+4. Can we create public static final variables in java?
+5. How to call constructors of other classes and same class in this class?
+6. Why do we use constructors in selenium?
+7. How can we run test method and test class multiple times like 100 times?
+8. Does priority in TestNG will have negative values and 0 value?
+9. Parameterized testing in TestNG?
+10. @BeforeTest and @BeforeClass difference?
+11. How to write Data Provider in TestNG?
+12. Groups in TestNG?
+13. Different waits in Selenium and their usage?
+14. OOPS concept in java and usage in Selenium?
+15. Can Constructor be private?
+16. You have 2 interfaces and you declared 4 methods in 1st interface 
+and 2 methods in 2nd interface and now you are implementing those 2 interfaces in your class, 
+you would want to implement only few declared methods from those 2 interfaces so how you deal with this?
+17. Coding ➡️ HashMap sorting using keys where it contains one null key 
+18. Coding ➡️ We have 3 stairs need to find number of possibilities to reach the 3rd stair from ground using java.
+19. Git commands
+ 🔸 Git push origin feature-branch (Is this correct command and why?)
+ 🔸 Git stashing
+ 🔸 Git cherry pick
+ 🔸 Git branching
+20. Parallel Execution in Selenium?
+21. How to execute selenium tests in Jenkins?
+
+2️⃣ Second Round: Duration 50 min
+1. Selenium Framework explanation
+2. How to handle dynamic dropdowns in selenium?
+3. Can we automate CAPTCHA?
+4. Explain Exceptions hierarchy in java?
+5. Difference between driver.get() and driver.navigateTo() methods?
+6. Parameterization in TestNG?
+7. How to connect Maven and TestNG?
+8. What are streams in java and their usage?
+9. How to work with configuration files in selenium framework?
+10. Difference between Page Object Model (POM) and Page Factory? How Page factory implementing lazy initialization and how we can do same in POM?
+11. What is the hierarchy of TestNG annotations?
+12. How to run failed tests again in TestNG?
+
+3️⃣ Third Round: Duration 45 min
+1. Open "Crick buzz" website and get the 6's count of player by giving player name in Xpath? 
+2. Actions class questions like how to perform keyboard actions using Actions class?
+3. How to perform control click operation using actions class?
+4. How to perform file upload operation in selenium and write code for it?
+5. Write code for taking screenshot?
+6. What are listeners and write code for it
+7. Manual API testing questions like status codes and http methods and difference between put and patch 
+
+
+************ WISSON INFOTECH SDET Q&A ***************
+1. Write a Java program for the given string transformation:
+Input: tomorrow
+Output: 13m3223w
+2. Can we use a try block without a catch block? Can we use a try block with a finally block?
+3. Write a code snippet to handle multiple selections from a dropdown. Also, provide XPath for specific web elements.
+4. How can we run specific test cases in TestNG? Provide 2-3 different ways.
+5. What is the difference between git merge and git rebase?
+6. How can we achieve abstraction in a real-time Selenium framework?
+7. Why do you use and implement Shadow DOM elements?
+8. How did you integrate AWS into your project, and what reporting mechanism did you use?
+9. What collections have you used? Explain the differences between List, Set, and Map.
+10. What are the HTTP status codes used for negative scenarios in API testing?
+11. If the Ul is not ready and you need to perform a file upload scenario, what API checks should be in place?
+12. Can we create two Scenario Outline sections in a single feature file in Cucumber?
+13. How do you implement Page Object Model + Page Factory in a scalable test framework?
+14. How would you design a framework to test a microservices-based application?
+15. What are the differences between SoftAssert and Assert in TestNG?
+16. How do you handle dynamic waits without using Thread.sleep()?
+17. How would you implement parallel execution using Selenium Grid or TestNG?
+18. REST Assured: How do you validate nested JSON responses?
+19. How do you mock third-party APIs in automation testing?
+20. How do you generate reports using Allure or Extent? Can you customize them?
+21. How do you integrate your CI/CD pipeline (like Jenkins) with your automation framework?
+22. How do you manage environment-specific configurations securely (dev/stage/prod)?
+23. How do you write custom XPaths that are stable and not flaky?
+
+****** CGI SDET **********
+1) Among all the given locator which locator is fastest of all?
+2) If the method fails to find the element which of the two methods throws you the expectations?
+3) What is selenium?
+4) How to execute multiple Test cases at a time in TestNG?
+5) Which method allows you to change control from one window to other?
+6) Which annotations executed first?
+7) Which open source tolls allows us to read and write Ms Excel file using Java?
+8) How many types of XPath are there in selenium?
+9) In selenium 4, which of the following method allows us to take screenshot of a specific web element?
+10) Which language use in gherkins?
+11) When you only want to access a single element on a webpage which method will you use?
+12) Which class is used for drop-down in selenium?
+13) Which component of selenium is most important?
+14) Which keywords use in gherkins?
+15) How many locators does selenium has?
+16) Which exception is shown in selenium when there is a delay in the loading time of the elements with which we are interacting?
+17) Write correct syntax for absolute path
+18) What is Ui testing?
+19) Which XPath search dissimilar nodes in XML document from the current node
+20) What do you mean by open source software
+21) Which of following browser support selenium?
+22) Which method are present in POM to locate webelement?
+23) Which type of wait command waits for a certain amount of time before it throws an exception?
+24) Which tool you will use to manage and organised jar and lib in automation?
+25) is a type of change related testing performed after fixing a defect to confirm that a failure caused by the defect does not reoccur
+26) Which type of XPath start with a double forward slash?
+27) Which type of XPath start with a single forward slash?
+28) How many types of wait commands does the selenium web driver provide?
+29) Which of the following waits takes timeout and polling frequency as it's parameter?
+
+1) Introduce Yourself.
+2) Write a code to separate the zeroes to right and all non zero values to left side of array.
+Ex: input array-{1,5,0,6,0,2,0,3,9}
+Output Expected -{1,5,6,2,3,9,0,0,0}
+3) What commands you have used in Git/Github? Could you explain merge conflict and how do you handle it?
+4)How would you schedule the jenkins job to run at 9am and 5pm everyday for health check testing?
+5) Explain the inheritance concept of java and how you are using that in your framework?
+6) Explain how you integrated reprting tools in the framework?
+7) Write java code to read a property item from property file.
+8)Imagine you have to build testcases for testing the functionality of Lifts, how would you do that and what are your top 10 testcases?
+9) Write java code to extract data from mysql query.
+10) Explain the framework architecture.
+11) What is the latest code changes that you have worked on?
+12) Write xpath for an element which has only text option.
+13) What are the different status codes you have encountered in rest api testing?
+14) why Selenium ? what are its disadvanages/limitations?
+15) Write java code to find second maximum element in your array.
+
+>>> CGI Self attended
+1- SailPoint related questions like: -
+	>> version, workflows, perform maintainence task, refresh identity task, acces workflows, sod etc
+2- findElement and findElements difference
+3- waits and explicit wait
+4- Bdd cucumber framework architecture
+5- methods of expectedConditions to use in explicitWait
+6- why static blocks / variables are used 
+
+***************** SDET - PulicSapient ************
+1️⃣ First round: Duration 1 hour
+Focused mainly on Java coding
+1. Does Map supports null keys?
+2. Can we use declare constructor static in java?
+3. Can we override and overload static methods in java?
+4. Can we create public static final variables in java?
+5. How to call constructors of other classes and same class in this class?
+6. Why do we use constructors in selenium?
+7. How can we run test method and test class multiple times like 100 times?
+8. Does priority in TestNG will have negative values and 0 value?
+9. Parameterized testing in TestNG?
+10. @BeforeTest and @BeforeClass difference?
+11. How to write Data Provider in TestNG?
+12. Groups in TestNG?
+13. Different waits in Selenium and their usage?
+14. OOPS concept in java and usage in Selenium?
+15. Can Constructor be private?
+16. You have 2 interfaces and you declared 4 methods in 1st interface and 2 methods in 2nd interface and now you are implementing those 2 interfaces in your class, you would want to implement only few declared methods from those 2 interfaces so how you deal with this?
+17. Coding ➡️ HashMap sorting using keys where it contains one null key 
+18. Coding ➡️ We have 3 stairs need to find number of possibilities to reach the 3rd stair from ground using java.
+19. Git commands
+ 🔸 Git push origin feature-branch (Is this correct command and why?)
+ 🔸 Git stashing
+ 🔸 Git cherry pick
+ 🔸 Git branching
+20. Parallel Execution in Selenium?
+21. How to execute selenium tests in Jenkins?
+
+2️⃣ Second Round: Duration 50 min
+1. Selenium Framework explanation
+2. How to handle dynamic dropdowns in selenium?
+3. Can we automate CAPTCHA?
+4. Explain Exceptions hierarchy in java?
+5. Difference between driver.get() and driver.navigateTo() methods?
+6. Parameterization in TestNG?
+7. How to connect Maven and TestNG?
+8. What are streams in java and their usage?
+9. How to work with configuration files in selenium framework?
+10. Difference between Page Object Model (POM) and Page Factory? How Page factory implementing lazy initialization and how we can do same in POM?
+11. What is the hierarchy of TestNG annotations?
+12. How to run failed tests again in TestNG?
+
+3️⃣ Third Round: Duration 45 min
+1. Open "Crick buzz" website and get the 6's count of player by giving player name in Xpath? 
+2. Actions class questions like how to perform keyboard actions using Actions class?
+3. How to perform control click operation using actions class?
+4. How to perform file upload operation in selenium and write code for it?
+5. Write code for taking screenshot?
+6. What are listeners and write code for it
+7. Manual API testing questions like status codes and http methods and difference between put and patch
+
+*********** Another set of Publicis Sapient*********
+
+Publicis Sapient recent SDET interview questions:
+
+- Core Java & OOPs:
+Q. Can we have a catch block without a try block, or a try block without a catch block?
+Q. Can we handle exceptions without using try and catch?
+Q. What is Polymorphism and its types? Explain with respect to your project.
+Q. Where have you implemented Encapsulation and Abstraction in your project?
+Q. Difference between protected and private in Java?
+Q. Can we create an object of an Interface or Abstract class? Why or why not?
+Q. Example of method overloading and method overriding in Selenium?
+
+- Selenium / Automation:
+Q. What are the major exceptions you get in Selenium?
+Q. How will you send the up and down arrow keys as input in a textbox?
+Q. Difference between findElements and findElement
+Q. Fluent wait syntax
+Q. Explicit and implicit wait
+Q. Difference between Selenium 3.0 and 4.0 version
+Q. There is a dropdown list on a webpage along with a link to another page. Upon clicking the link, a new tab opens, 
+and there is another dropdown. How will you find the common options between these dropdowns? Explain step by step.
+
+- Framework & TestNG:
+Q Explain the Depends On attribute in TestNG.
+Q. Suppose you are working on a regression suite and a smoke suite. How can you create triggers for both suites?
+
+- Problem Solving:
+Q. Write a code to print the number of characters in the string: "ttessst@innn123ggg!"
+Q. Programs on String Manipulation, HashMap
+Q. Difference between list, set, map and usage in framework
+
+********UST Global Interview Questions:********
+1) How do you perform verification and assertion in Selenium?
+2) Explain how to retrieve an Excel file name using a Data-Driven Framework (DDF).
+3) What is RTM and why is it essential in testing?
+4) What is the JavaScript command to scroll up and down on a webpage?
+5) Write a program to find the largest and smallest elements in an array.
+6) What is integration testing, and how is it conducted?
+7) How can you retrieve the font type, color, and size of a text element in Selenium?
+
+**********API Testing Interview Questions from BIRLA-SOFT : 
+
+Round #1 : 
+1) How would you configure to run parallel API tests in TestNG or JUnit?
+2) How can you parameterize API tests to run against different environments (dev, QA, prod) dynamically?
+3) How do you validate nested JSON responses when the structure is dynamic?
+4) How do you extract and validate specific fields from an array of JSON objects in a response?
+5) How would you handle API responses that return different data types dynamically for the same field?
+6) Given an API that returns paginated results, how would you validate data consistency across multiple pages?
+7) If an API rate limits requests (e.g., throttling at 100 requests per minute), how would you implement retries with exponential backoff ?
+8) How to handle APIs that randomly return 429 (Too Many Requests) errors?
+9) If an API triggers an asynchronous process (e.g., starts a batch job and returns a Job ID), how would you validate its completion?
+10) How do you handle APIs that return multipart/form-data responses?
+11) How to simulate 1000 concurrent users hitting an API?
+12) How would you integrate Rest Assured with JMeter or Gatling for performance testing?
+13) How can you automate testing for unauthorized access scenarios using Rest Assured?
+
+➡️ Coding part : 
+
+14) Open a Notepad , Can you write a test that measures API response time and fails if it exceeds a threshold?
+
+********* scneario based automation questions **********
+
+1. You are asked to automate a functionality that is not yet fully developed. How do you handle this?
+2. If a test fails, what is your next step?
+3. If the application has minor changes, what would be your approach to modifying the automation scripts?
+4. How would you automate login functionality for a website?
+5. How would you automate a test scenario where you need to check if an email is sent after user registration?
+6. If there is a scenario that takes a long time to execute, would you prefer manual testing or automation?
+7. How would you automate a scenario where you need to validate the contents of a downloaded file after clicking a button on a webpage?
+8. How would you automate a scenario where you need to verify a specific color, font, and position of an element on a webpage?
+9. How would you handle pop-up windows or alert boxes in your automation script?
+10. How would you automate a scenario where you need to verify if a user is able to scroll down a webpage until the footer section is visible?
+11. You are asked to automate a legacy application. What is your approach?
+12. A script you wrote was working fine yesterday but is failing today. How do you troubleshoot it?
+13. Your automation scripts are running slowly. How can you improve the speed?
+14. Your automation script is failing due to a change in the application. How do you handle this?
+
+*********** Deloitte | Sr. QA | Interview Questions
+
+1. Explain about yourself and your roles and responsibilities.
+2. Write Java code to reverse a string while preserving the whitespace.
+3. Given an SQL table, find the second-largest salary of an employee.
+4. Explain the concept of joins and list the different types of joins available.
+5. What is LinkedHashMap? Explain its use.
+6. Explain black-box testing and white-box testing.
+7. What is the difference between an exception and an error?
+8. Difference between findElement and findElements.
+9. What is the difference between implicit wait and explicit wait?
+10. Write Selenium code to automate a calendar WebElement.
+11. How would you fetch the text from a text box in Selenium?
+12. How do you enter text in an alert using Selenium?
+13. What is the difference between checked and unchecked exceptions?
+14. If an XPath selects two elements on a webpage, does findElement throw an exception?
+15. Explain smoke testing and sanity testing.
+16. What are relative locators in Selenium?
+17. Explain the challenges you faced in your project.
+18. How would you pick test cases for regression testing?
+
+#Round 2: (Techno-Managerial)
+
+1. Explain your framework in detail.
+2. In your framework, if you have 100 pages, do you create 100 Page Objects?
+3. What is an “Element click intercepted” exception, and how do you fix it?
+4. How do you take screenshots for failed test cases only in TestNG?
+5. Explain how to connect your test cases with Azure.
+6. What is the get fetch command?
+7. In Postman, how do you delete a variable after test execution is finished?
+8. Why do you prefer using Cucumber BDD in your project?
+9. Explain dynamic binding and static binding.
+10. What is method overloading, and what is method overriding?
+11. What is the difference between Comparable and Comparator?
+12. How would you conclude that a login page is user-friendly?
+13. What are 5 points you consider when writing a good test case?
+14. Suppose a developer is not fixing a bug; how would you approach the situation?
+15. What are threads in JMeter?
+16. Can you automate captchas?
+17. In what cases would you require fluent waits?
+18. In Selenium, how would you open a new tab?
+19. In Jenkins, what is the purpose of a CRON expression?
+
+******* Global Logic QA Engineer
+Tell me about yourself
+🔹Common exceptions you’ve faced in your automation framework and
+how you resolved them
+🔹What causes StaleElementReferenceException in Selenium?
+🔹Use of text() in XPath – when and why
+🔹Why do we prefer WebDriver driver = new ChromeDriver()?
+🔹Parent class of all exceptions in Java?
+🔹HTTP status codes: What is 400 (Bad Request)?
+🔹Difference between PUT and PATCH
+🔹Java coding: Remove duplicates from an array (without HashMap)
+🔹How to capture full-page screenshot using Selenium?
+
+📌𝐑𝐨𝐮𝐧𝐝 𝟐 – 𝐓𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 + 𝐒𝐞𝐧𝐢𝐨𝐫 𝐌𝐚𝐧𝐚𝐠𝐞𝐫 𝐈𝐧𝐭𝐞𝐫𝐯𝐢𝐞𝐰:
+
+🔹Walk me through your current project + your role
+🔹Write dynamic XPath for the “Check Availability” button on Rediffmail
+🔹What are XPath axes and which functions have you used most?
+🔹REST Assured: Purpose of RequestSpec and ResponseSpec
+🔹What is the full form of REST?
+🔹What is JavaScriptExecutor? Show code usage
+🔹3 different ways to click on a web element in Selenium
+🔹How do you handle multiple browser windows? (Code)
+🔹How do you read data from Excel files in Java?
+🔹Would you be comfortable doing manual testing if needed?
+🔹Difference between final, finally, and finalize
+🔹Can you use multiple catch blocks with a single try?
+
+************ AERIES TECHNOLOGY
+
+1- Explain automation framework used along with structure.
+2- Code - Missing integer in array = {1,2,3,5,6,7}
+3- What are the challenges came across in automation framework and how resolved?
+4- Functional Interfaces in Java
+5- What is serialisation and deserialisation, write samle code for that?
+6- what is difference between GET and POST?
+7- Can we fetch data using POST, when we have very huge number of characters in URI to get the details?
+8- Difference b/w HashMap and LinkedHashMap
+9- Catched and Uncatched exceptions
+10- Difference b/w authorisation and authentication
+11- Status code when not authorised
+
+****** JPM ********
+1. What is Expception Handling? 
+2. What is Constructor? 
+3. What is Polymorphism? 
+4. Difference between TC and Test Scenario? 
+5. If your team receives 10 Projects in a day and your team is capable of only doing 5-6 in a day and the release in of next day itself. 
+What will you do in such situation? 
+6. Explain JIRA Tool and its Stages? 
+7. How to create a task in JIRA? 
+8. Write TC's on Interview?(Think you have come for the interview - what would be the scenario you would cover) 
+9. Difference between Smoke and Sanity testing? 
+10. Defect cycle and its related questions? 
+11. What will you do if there is a defect which you are not able to close? 
+(condition: you dont have any onsite coordinator to help, there is only offshore team)
+
+*** ACCENTURE SDET ******
+1. Tell me about your experience in automation testing.
+2. How do you structure your Selenium TestNG framework?
+3. Difference between `assert` and `verify`.
+4. How do you handle dynamic elements in Selenium?
+5. Explain the Page Object Model with a real-time example.
+6. How do you manage waits (implicit, explicit, fluent)?
+7. How do you take screenshots only when a test fails?
+8. How is your test automation integrated with CI/CD?
+9. What reporting tools have you used (Extent, Allure)?
+10. What’s your experience with REST API automation using Postman/RestAssured?
+11. How do you validate response codes and headers in API testing?
+12. How do you manage test data for large test suites?
+13. Have you written any custom utilities or reusable functions?
+14. How do you handle cross-browser testing?
+15. How do you organize test suites for regression vs smoke testing?
+16. Difference between BDD and TDD? Have you used Cucumber?
+17. What is the TestNG execution order with multiple annotations?
+18. How do you handle file upload/download in automation?
+19. How do you work with JSON responses in Java?
+20. What are your strategies to maintain flaky scripts?
+
+Deloite Interview Experience – Automation Test Engineer
+
+Compensation: 20 LPA
+Position: Automation Test Engineer
+Application Method: Direct Application
+
+𝗥𝗼𝘂𝗻𝗱 𝟭: 𝗧𝗲𝗰𝗵𝗻𝗶𝗰𝗮𝗹 𝗦𝗰𝗿𝗲𝗲𝗻𝗶𝗻𝗴
+
+1. Walk me through your automation framework – which tools, design patterns, and reporting mechanisms do you use?
+2. Explain how you use **Selenium WebDriver with Java**. How do you handle dynamic web elements?
+3. What is the role of TestNG in your framework? How do you implement data-driven testing using `@DataProvider`?
+4. How do you handle waits in Selenium? What’s the difference between implicit, explicit, and fluent waits?
+5. How do you manage test execution in Jenkins? Have you set up CI pipelines for automated test runs?
+6. What kind of reports do you generate post automation execution? How do you integrate Extent Reports or Allure?
+7. What is Page Object Model (POM)? How do you maintain reusable components across multiple test cases?
+8. Have you automated REST API test cases? Which tools or libraries do you use (like Rest Assured or Postman)?
+9. How do you capture screenshots on failure and attach them to reports?
+10. What is your approach to version control? How do you structure your code in Git and collaborate with teams?
+
+
+𝗥𝗼𝘂𝗻𝗱 𝟮: 𝗜𝗻-𝗱𝗲𝗽𝘁𝗵 𝗧𝗲𝗰𝗵𝗻𝗶𝗰𝗮𝗹 𝗘𝘃𝗮𝗹𝘂𝗮𝘁𝗶𝗼𝗻
+
+1. Describe your framework’s lifecycle. How do you manage parallel execution, cross-browser testing, and reporting?
+2. How do you handle flaky test cases and reduce their occurrence?
+3. Explain your experience with API automation in detail – how do you validate headers, payloads, status codes, and chaining requests?
+4. Have you worked with Docker or containers in your automation environment? If yes, explain how you run your tests inside containers.
+5. How do you manage secrets, config files, and environment-specific data during test execution?
+6. What security tools or code quality tools have you integrated into your test pipeline (e.g., SonarQube, OWASP)?
+7. How do you ensure code coverage and track untested areas of your application?
+8. Have you worked on test data management? How do you create and clean test data in pre and post conditions?
+9. Explain how you’ve integrated Jenkins with your framework. How do you trigger jobs on Git commits?
+10. What are the benefits of using Maven or Gradle in test automation projects?
+
+𝗥𝗼𝘂𝗻𝗱 𝟯: 𝗛𝗠 𝗥𝗼𝘂𝗻𝗱 (𝗛𝗶𝗿𝗶𝗻𝗴 𝗠𝗮𝗻𝗮𝗴𝗲𝗿)
+
+1. Walk me through your current project and role.
+2. Behavioral questions related to ownership, adaptability, and communication.
+3. Discussion around long-term career plans and interest in automation innovation.
+
+#Wipro | 𝗤𝗔 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗼𝗻 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄 𝗤𝘂𝗲𝘀𝘁𝗶𝗼𝗻𝘀 
+
+1. Could you provide a program that identifies and prints duplicate numbers from a given array?
+2. What is a copy constructor in Java, and how is it used?
+3. What are the different types of constructors available in Java?
+4. How do you approach parallel testing in your projects?
+5. How do you manage test data in your testing processes? Which tools do you utilize, such as Apache POI?
+6. What does the "Background" keyword signify in Cucumber?
+7. Can you explain the concept of hooks in Cucumber?
+8. What is the difference between instance variables and local variables in Java?
+9. How does an interface differ from an abstract class in Java?
+10. Is multiple inheritance possible with two abstract classes in Java?
+11. Is multiple inheritance achievable through interfaces in Java?
+12. Can an abstract class inherit or implement an interface?
+13. Can an interface inherit or implement an abstract class?
+14. What is a thread in the context of programming?
+15. What are the differences between the `notify()` and `notifyAll()` methods in Java?
+
+########### J.P. Morgan Interview Experience
+
+Role: Automation Test Engineer – SDET
+Compensation: 22 LPA
+
+Round 1 & 2 – Deep Dive into Automation, Debugging & CI/CD
+
+1. You're testing a microservice in a CI/CD pipeline that intermittently fails on staging but not in local. How do you approach debugging?
+
+2. Selenium tests randomly fail on Jenkins but pass locally. What steps do you take to isolate flaky tests?
+
+3. Test suite execution time has increased from 10 to 40 minutes in the last month. How would you optimize it?
+
+4. Your automation tests are unable to identify dynamically generated elements. How would you handle this?
+
+5. How would you structure test automation for a banking app with 100+ microservices and APIs?
+
+6. Post-deployment smoke tests pass internally but fail for external clients (403 error). How will you triage the issue?
+
+7. How do you ensure sensitive data like test credentials are handled securely in automated test pipelines?
+
+8. How would you use BrowserStack or Sauce Labs for cross-browser testing in a CI pipeline?
+
+9. During nightly test execution, DNS resolution errors are logged intermittently. How do you root cause this?
+
+10. Test executions experience 10–15 second delays every 15 minutes without any code changes. How would you start your root cause analysis?
+
+11. Maven/Gradle build succeeds but fails to upload test reports to reporting dashboards. How would you troubleshoot?
+
+12. How would you implement a fail-safe rollback of automated test triggers after a failed deployment?
+
+13. Design a cost-optimized cloud testing strategy for regression suites that run nightly and retain logs for 3 years.
+
+14. What’s your approach for testing zero-downtime database migrations?
+
+15. How do you ensure consistency of test results across containerized test environments (e.g., Docker)?
+
+16. An Azure DevOps pipeline running test jobs is being throttled. How would you detect and mitigate the issue?
+
+17. Define a rollback strategy in TestNG using listeners and retry analyzers for failed tests.
+
+18. How do you measure and monitor end-to-end test SLA for business-critical features?
+
+19. What’s your approach to designing scalable test execution for compute-intensive versus I/O-intensive test scenarios?
+
+20. If your pipeline is blocked due to missing test approvals before a release and the stakeholder is unreachable, what’s your next move?
+
+#####Adobe QA Automation Interview – Full 3 Rounds!
+
+📌 Round 1 – Java + Coding + OOPS:
+
+1️⃣ Explain OOPS principles with real examples.
+2️⃣ Difference between ArrayList and LinkedHashSet.
+3️⃣ Write a Java program to reverse a string without using reverse().
+4️⃣ Explain StringBuilder vs StringBuffer.
+5️⃣ How do you handle NullPointerException in Java?
+6️⃣ Write a program to check if two strings are anagrams.
+7️⃣ Explain final, finally, and finalize.
+8️⃣ Difference between HashMap and HashTable.
+9️⃣ Write a program to rotate an array by K positions.
+
+📌 Round 2 – Selenium + Automation Framework:
+
+1️⃣ Explain Page Object Model and its benefits.
+2️⃣ Difference between implicit, explicit, and fluent waits.
+3️⃣ How do you handle dynamic elements using XPath?
+4️⃣ Explain TestNG annotations and their order.
+5️⃣ How do you capture screenshots for failed cases?
+6️⃣ Explain DataProvider in TestNG with an example.
+7️⃣ Scenario: Login button becomes enabled only after API call – how to handle?
+8️⃣ How do you manage parallel execution in Selenium?
+9️⃣ Explain use of DesiredCapabilities in Selenium.
+
+📌 Round 3 – API + SQL + Advanced Questions:
+
+1️⃣ SQL: Write a query to fetch the second highest salary without LIMIT/TOP.
+2️⃣ How to validate API response body and schema using Rest Assured?
+3️⃣ Difference between POST and PUT in REST API.
+4️⃣ Scenario: Your API returns 500 Internal Server Error – how do you debug?
+5️⃣ How do you handle SSL certificates in API automation?
+6️⃣ Explain integration of Selenium scripts with CI/CD tools like Jenkins.
+7️⃣ How do you design a Hybrid Automation Framework?
+8️⃣ Write a program to find duplicate elements in an array.
+9️⃣ Scenario: Application loads slowly causing TimeoutException – how do you fix this?
+
+######TCS | Sr. QA | Interview Questions
+
+Manual Testing Questions:
+1. Have you worked in Agile methodology? Explain it.
+2. Explain the points you consider while writing a good test case.
+3. What is the Bug Life Cycle?
+4. Difference between Test Scenario vs Test Case.
+5. Difference between Functional vs Non-Functional Testing.
+6. Difference between Smoke and Sanity Testing.
+7. What is STLC in software testing?
+8. Difference between Alpha and Beta Testing.
+9. How many tests have you automated in a single sprint?
+10. How do you decide which test cases to automate?
+11. Which test cases would you not automate?
+12. Is 100% automation possible?
+13. Important things to consider when logging a bug.
+14. Where do you write your test cases? In Excel or some other tool?
+
+Automation Testing:
+1. Difference between implicit and explicit waits.
+2. Asked to share screen and write XPath for a given element.
+3. Use of Actions class and Select class.
+4. Explain your roles and responsibilities.
+5. Exceptions faced while working with Selenium (Give 5 examples).
+6. OOPS concepts (Inheritance, Abstraction, Polymorphism, etc.).
+7. Difference between findElement() vs findElements().
+8. How to handle alerts in Selenium?
+9. Write Selenium code to take a screenshot.
+10. What is priority in TestNG?
+11. Reports used in your framework.
+12. Difference between Scenario vs Scenario Outline in Cucumber BDD.
+13. Explain the framework you are working on.
+14. What are tags in Cucumber?
+15. How do you manage test data in your framework?
+16. Abstract class vs Interface.
+17. Write Java code to reverse a string and perform array manipulation.
+18. Questions from HashMap, HashSet.
+19. Difference between Array and ArrayList.
+20. What is Collection in Java?
+21. Why is String immutable in Java?
+22. Difference between Collection and Collections.
+23. Difference between StringBuffer and StringBuilder.
+24. API status codes difference (400, 401, 201, 200, etc.).
+25. Difference between PUT vs PATCH request.
+26. Basic GitHub commands (git add, git commit, git diff).
+
+##########🚀 Selenium 3 vs Selenium 4 – Interview Perspective🎯
+
+If you're preparing for automation testing interviews, “What’s the difference between Selenium 3 and Selenium 4? " is a common question! Here's a crisp comparison to help you answer with confidence. 👇
+
+🔹1. W3C WebDriver Standard
+
+Selenium 3: Uses JSON Wire Protocol (not fully W3C compliant).
+Selenium 4: Fully W3C compliant – leads to better browser compatibility and stability!
+
+🔹2. Relative Locators
+
+Selenium 3 : No support.
+Selenium 4: Introduces above(), below(), near(), toLeftOf(), and `toRightOf()` for more intuitive element location.
+
+🔹3. Improved DevTools Integration
+
+Selenium 4: Now you can access Chrome DevTools Protocol (CDP) APIs directly – useful for performance monitoring, geolocation, network interception, etc.
+
+🔹4. Upgraded Selenium Grid
+
+Selenium 4: Comes with a brand new UI and supports distributed testing out of the box (Docker + Kubernetes friendly).
+
+🔹5. Better Documentation & IDE Support
+
+Selenium 4 has improved official docs and brings back the Selenium IDE as a browser extension with advanced features.
+
+🎯 Tip for Interviews: Don't just list differences — explain how Selenium 4 improves testing efficiency, reliability, and developer experience.
+
+#### Capgemini
+
+🔹 Version Control & CI/CD
+How do you manage test scripts in a Git repository?
+How do you trigger regression suites — manually or via Jenkins pipelines?
+Explain how you manage branching strategy in Git for test automation.
+
+🔹 API Testing (Postman & Rest Assured)
+What is the difference between GET and POST methods in API testing?
+What are the essential components in GET and POST requests?
+Explain HTTP status codes like 200, 201, 401, 403, and 503.
+How do you validate response codes and response data in API tests?
+What format do you use for assertions in your API tests using Rest Assured?
+Provide the syntax for using query parameters in API requests.
+How do you handle headers and authentication in Rest Assured?
+
+🔹 Challenges & Real-World Scenarios
+What challenges have you encountered in automation testing and how did you overcome them?
+Can you explain a production bug your automation missed and how you fixed your scripts?
+What performance or stability issues have you faced during test execution?
+How do you handle flaky tests and unstable environments?
+
+###### Mphasis (Self 25 Jul 2025)
+
+1- Automation framework explaination
+2- BDD Cucumber questions like
+	>> for scenario if we want to pass multiple test data
+	>> How do u check if scenario has not been implemented with step definitions. If executed feature file, what happens
+		need to add check with dryRun and Strict = true in runner
+3- API Testing
+	>> Status Codes, what if body is In correct, what response code
+	>> API tetsing negative scenarios and respective status code, how do you handle
+	>> Cookies or Header validation
+4- Selenium
+	>> Open website and write xpath
+	>> what if webelement is in chinese language, we can't use contains with text(), then how?
+	>> How all links are present or not validate?
+	>> diff b/w findElement and FindElements(), does it give error if webelement not found?
+5- Coding
+	>> String = word1 word2 word3 word1 word2, get count of each word
+6- SQL
+	>> Get employee name whose salary is greater than 30000 and name starts with 'ab'
+7- Hw to come up with automation strategies and automation tool selections
+
+######## QA Automation | Interview Questions | hashtag#Paytm
+
+1. Can you introduce yourself and share a bit about your background?
+2. Given the input lists `𝗽𝗿𝗲𝘀𝗲𝗻𝘁 = [𝟱, 𝟰, 𝟲, 𝟮, 𝟯]`, `𝗳𝘂𝘁𝘂𝗿𝗲 = [𝟴, 𝟱, 𝟰, 𝟯, 𝟱]`, and a budget of 10, what is the maximum profit you can achieve? For example, you can buy stocks at indices 0, 3, and 4 for a total of 5 + 2 + 3 = 10 and sell them the next year for 8 + 3 + 5 = 16, resulting in a profit of 6.
+3. For the array `[1, 2, 3, 4, 5]`, if you rotate it to the right by 3 positions, what will the new array look like?
+4. Could you explain your approach to executing test cases across multiple browsers?
+5. How would you manage to execute 20 test cases in each browser if you have a total of 100 test cases?
+6. When using the TestNG framework, how do you run failed test cases in the same test execution?
+7. What is the Software Testing Life Cycle (STLC)?
+8. Can you differentiate between white-box, black-box, and grey-box testing?
+9. What are the different types of black-box testing?
+10. Do you have any questions for us? | QA Automation | Interview Questions
+
+
+####### OpenText (Myself - 31/Jul/2025)
+
+1- API
+	- Rest and SOAP differences
+	- pagination in API
+	- Token generation and expiry using timers
+	- Async and Sync API waits handling
+	- Idempotent
+2- Selenium
+	- xpath with siblings
+	- Explain POM
+3- Coding
+	- String "Welcome to the city", should print as W is 1 time, etc for all
+4- Automation tools and Strategies
+5- How would you bring manual and automation efforts
+6- CICD pipeline creation
+
+######### 𝐍𝐚𝐠𝐚𝐫𝐫𝐨 𝐈𝐧𝐭𝐞𝐫𝐯𝐢𝐞𝐰 𝐄𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞
+
+𝐑𝐨𝐮𝐧𝐝 𝟏 (𝐓𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 – 𝐒𝐞𝐥𝐞𝐧𝐢𝐮𝐦, 𝐅𝐫𝐚𝐦𝐞𝐰𝐨𝐫𝐤, 𝐀𝐏𝐈)
+1. Tell me about your current project and the framework you’re using.
+2. What design patterns have you used in your automation framework?
+3. Explain the Singleton pattern with example.
+4. How is the Factory pattern used in browser handling?
+5. How do you manage browser drivers and avoid duplication in your test setup?
+6. What types of waits do you use, and where exactly?
+7. How do you handle flaky tests?
+8. How do you validate API responses using REST Assured?
+9. What is the difference between HashSet, LinkedHashSet, and TreeSet?
+10. What is the role of ITestListener and IRetryAnalyzer in TestNG?
+11. How do you manage screenshots and logs in your test reports?
+12. Have you implemented Jenkins + Git integration for CI/CD?
+
+𝐑𝐨𝐮𝐧𝐝 𝟐 (𝐉𝐚𝐯𝐚 𝐂𝐨𝐝𝐢𝐧𝐠 + 𝐂𝐨𝐧𝐜𝐞𝐩𝐭𝐬)
+1. Write Java code to count character frequency in a string using Streams.
+2. Write code to check if a number is a palindrome without converting to string.
+3. Write code to remove all non-alphabet characters from a sentence.
+4. Difference between Abstract Class and Interface with example.
+5. What is the use of transient and volatile in Java?
+6. Difference between ConcurrentHashMap and HashMap.
+7. What is method hiding vs method overriding?
+8. What is the default value of object references and primitive types?
+9. How do you sort a list of custom objects by multiple fields?
+
+𝐑𝐨𝐮𝐧𝐝 𝟑 (𝐌𝐚𝐧𝐚𝐠𝐞𝐫𝐢𝐚𝐥 + 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐃𝐢𝐬𝐜𝐮𝐬𝐬𝐢𝐨𝐧)
+1. How do you plan automation in a fast-paced sprint cycle?
+2. How do you prioritize which test cases to automate first?
+3. Describe a situation where a last-minute change broke your scripts – how did you fix it?
+4. How do you ensure quality and code reviews in a multi-member automation team?
+5. How do you contribute to knowledge sharing and team learning?
+
+###### GE Healthcare F2F (04/Aug/2025)
+
+1- Oops concept and where we have used in framework
+2- Polymorphism
+3- Try catch block custom program and guess output
+4 Collections
+	- Can a Set in Java accept objects with the same value?
+	- Array and ArrayList difference and what are data structure
+	
+	
+####### HCL (06/Aug/2025)
+
+1- Coding
+	get characters count of string and also index and print how many times repeated
+	
+2- Framework, if we changing UI regularly, how would we manange
+3- Custom reports using extent manager
+4- Get screenshot of specific element
+
+######### Senior Position Java questions
+
+1. Difference between String, StringBuilder and StingBuffer and when to use them?
+2. Difference between .equals() method and == Operator?
+3. Difference between method overloading and method overriding with examples?
+4. What are Java 8 Features that you have used in your project ?
+5. How do you configure different environments(like dev, qa, prod) in Spring Boot?
+6. When do you use Synchronous and asynchronous communication between microservices?
+7. What are the design patterns that you used in Microservices and explain each of them and when to use?
+8. In your experience what are the top three performace bottlenecks you have encountered in your Microservice applications?
+9. Explain about complext entity relationship experience and N+1(Plus-One Query) problems, how would you optimize using spring data JPA features?
+10. What are best practices are you following in the coding espeacially using Spring Boot, JPA and Microservices Architecture?
+11. What are the steps to test Spring Boot Microservices application ?
+12. What are the differences between stubbing and Mocking? why do we need two kinds of approach?
+13. What is Spy in Mockito and when to use it?
+14. What are the things that you need to take care while deploying or building microservice for cloud related application?
+15. How do you achieve idempotency in microservices?
+
+######## QA Automation Tester Interview Questions
+
+Selenium WebDriver: 
+1️⃣ What are different types of locators in Selenium? 
+2️⃣ When do you use Xpath over CSS locators? 
+3️⃣ How to get a specific value from a dropdown and reuse it in verifications? 
+4️⃣ When do we use JavaScript Executors? 
+5️⃣ Is it possible to validate Captcha using Selenium? If yes, how? 
+6️⃣ What should be the ideal way to store data using Selenium WebDriver only? 
+7️⃣ Is it possible to use Xpath like parent/child/node/.. ? If yes, provide an example where to use it? 
+8️⃣ What happens if you receive browser notifications during test automation execution? 
+9️⃣ Why does Stale Element Exception occur, and how to handle it? 
+🔟 What is Invalid Certificate Exception? 
+
+APIs: 
+1️⃣ What are the components of an HTTP request? 
+2️⃣ What is the difference between API and unit testing? 
+3️⃣ What is an HTTP response? 
+4️⃣ How can we add validation points in Postman? 
+5️⃣ What do you understand by server-side validation? 
+6️⃣ What is 3-tier architecture? 
+7️⃣ What is the difference between web services and APIs? 
+8️⃣ What is REST, SOAP, and GraphQL in APIs? 
+9️⃣ What do you test in standalone APIs? 
+🔟 What do you test in 3rd-party integrated APIs? 
+
+Postman:
+1️⃣ When to use collections, environments, and global variables? 
+2️⃣ How to execute a collection end-to-end? 
+3️⃣ How to validate that an API response has the correct status code? 
+4️⃣ What happens when an API response returns Form Data instead of JSON, and how to validate it? 
+5️⃣ How to set up Basic Auth in Postman? 
+6️⃣ Where do you store environment credentials? 
+7️⃣ How to save a demo response for an API request? 
+8️⃣ How will you validate an API request if VPN is required for it to work? 
+9️⃣ How do you filter results in an API request using Postman? 
+🔟 How to set up custom headers in Postman? 
+
+Git: 
+1️⃣ What are the different stages in committing the code to GitHub? 
+2️⃣ Is it possible to revert changes in a remote repository? If yes, how? 
+3️⃣ When do you commit your code? After committing, how do you validate that everyone has the updated code? 
+4️⃣ How to merge stashed changes in a local repository? 
+5️⃣ Why do we need a `.gitignore` file? How do you add files to it? 
+
+TestNG: 
+1️⃣ What is the execution format of tests in TestNG? 
+2️⃣ Can priority be negative for methods? If yes, what is the execution flow as per priority? 
+3️⃣ What is the difference between `dependsOnMethods` and `dependsOnGroups`? 
+4️⃣ What are the different ways to exclude tests in TestNG? 
+5️⃣ What does `threadPoolSize` mean in TestNG, and how does it work? 
+
+******* TCS******
+Manual Testing Questions:
+1. Have you worked in Agile methodology? Explain it.
+2. Explain the points you consider while writing a good test case.
+3. What is the Bug Life Cycle?
+4. Difference between Test Scenario vs Test Case.
+5. Difference between Functional vs Non-Functional Testing.
+6. Difference between Smoke and Sanity Testing.
+7. What is STLC in software testing?
+8. Difference between Alpha and Beta Testing.
+9. How many tests have you automated in a single sprint?
+10. How do you decide which test cases to automate?
+11. Which test cases would you not automate?
+12. Is 100% automation possible?
+13. Important things to consider when logging a bug.
+14. Where do you write your test cases? In Excel or some other tool?
+
+Automation Testing:
+1. Difference between implicit and explicit waits.
+2. Asked to share screen and write XPath for a given element.
+3. Use of Actions class and Select class.
+4. Explain your roles and responsibilities.
+5. Exceptions faced while working with Selenium (Give 5 examples).
+6. OOPS concepts (Inheritance, Abstraction, Polymorphism, etc.).
+7. Difference between findElement() vs findElements().
+8. How to handle alerts in Selenium?
+9. Write Selenium code to take a screenshot.
+10. What is priority in TestNG?
+11. Reports used in your framework.
+12. Difference between Scenario vs Scenario Outline in Cucumber BDD.
+13. Explain the framework you are working on.
+14. What are tags in Cucumber?
+15. How do you manage test data in your framework?
+16. Abstract class vs Interface.
+17. Write Java code to reverse a string and perform array manipulation.
+18. Questions from HashMap, HashSet.
+19. Difference between Array and ArrayList.
+20. What is Collection in Java?
+21. Why is String immutable in Java?
+22. Difference between Collection and Collections.
+23. Difference between StringBuffer and StringBuilder.
+24. API status codes difference (400, 401, 201, 200, etc.).
+25. Difference between PUT vs PATCH request.
+26. Basic GitHub commands (git add, git commit, git diff).
+
+
+########## BNP Paribas
+
+1- Framework explaination
+2- Why POM and Page Chaining
+3- WebDriver architecture or Parent class - SearchContext
+4- Methods of SearchContext
+5- Diff b/w findElement and findElements
+6- FindElements will throw error if not found
+7- How will u say element is displayed or not, how will u handle if not found
+8- Write explicit code
+9- TestNg - priorities with negative value set
+10- Properties file code
+11 - Maven common to manage code execution with different envirnments to be executed.
+	>> with help of maven surifre plugin with suiteXmlFiles and systemProprtiesVariables with userid and env and profiles with env
+	>> in Build configure as mvn clean test -Psit
+12- How do u manage data for two environments
+13- How do u manage multiple code changes
+14- JDBC connection
+15- DB sql query on combining two tables
+
+###### Deloitte Interview Experience – Automation Test Engineer
+
+Application Method: Direct Application
+
+𝗥𝗼𝘂𝗻𝗱 𝟭: 𝗧𝗲𝗰𝗵𝗻𝗶𝗰𝗮𝗹 𝗦𝗰𝗿𝗲𝗲𝗻𝗶𝗻𝗴
+
+1. Walk me through your automation framework – which tools, design patterns, and reporting mechanisms do you use?
+2. Explain how you use Selenium WebDriver with Java. How do you handle dynamic web elements?
+3. What is the role of TestNG in your framework? How do you implement data-driven testing using `@DataProvider`?
+4. How do you handle waits in Selenium? What’s the difference between implicit, explicit, and fluent waits?
+5. How do you manage test execution in Jenkins? Have you set up CI pipelines for automated test runs?
+6. What kind of reports do you generate post automation execution? How do you integrate Extent Reports or Allure?
+7. What is Page Object Model (POM)? How do you maintain reusable components across multiple test cases?
+8. Have you automated REST API test cases? Which tools or libraries do you use (like Rest Assured or Postman)?
+9. How do you capture screenshots on failure and attach them to reports?
+10. What is your approach to version control? How do you structure your code in Git and collaborate with teams?
+
+
+𝗥𝗼𝘂𝗻𝗱 𝟮: 𝗜𝗻-𝗱𝗲𝗽𝘁𝗵 𝗧𝗲𝗰𝗵𝗻𝗶𝗰𝗮𝗹 𝗘𝘃𝗮𝗹𝘂𝗮𝘁𝗶𝗼𝗻
+
+1. Describe your framework’s lifecycle. How do you manage parallel execution, cross-browser testing, and reporting?
+2. How do you handle flaky test cases and reduce their occurrence?
+3. Explain your experience with API automation in detail – how do you validate headers, payloads, status codes, and chaining requests?
+4. Have you worked with Docker or containers in your automation environment? If yes, explain how you run your tests inside containers.
+5. How do you manage secrets, config files, and environment-specific data during test execution?
+6. What security tools or code quality tools have you integrated into your test pipeline (e.g., SonarQube, OWASP)?
+7. How do you ensure code coverage and track untested areas of your application?
+8. Have you worked on test data management? How do you create and clean test data in pre and post conditions?
+9. Explain how you’ve integrated Jenkins with your framework. How do you trigger jobs on Git commits?
+10. What are the benefits of using Maven or Gradle in test automation projects?
+
+𝗥𝗼𝘂𝗻𝗱 𝟯: 𝗛𝗠 𝗥𝗼𝘂𝗻𝗱
+1. Walk me through your current project and role.
+2. Behavioral questions related to ownership, adaptability, and communication.
+3. Discussion around long-term career plans and interest in automation innovation.
+
+##### PwC | QA Automation | Interview Experience
+
+𝐑𝐨𝐮𝐧𝐝 𝟐: 𝐓𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐑𝐨𝐮𝐧𝐝 (𝟔𝟎 𝐦𝐢𝐧𝐮𝐭𝐞𝐬)
+
+1. How would you design a scalable Selenium automation framework using Java and TestNG?
+2. How do you handle dynamic web elements that change IDs every time the page loads?
+3. Explain the Page Object Model (POM). Can you write a sample class for a login page?
+4. How do you manage test execution across different browsers and environments?
+5. What is your approach for running parallel test cases using TestNG?
+6. How do you capture screenshots for failed test cases and attach them to Extent Reports?
+7. Can you automate file upload/download scenarios using Selenium?
+8. How do you perform API testing? Have you worked with Rest Assured or Postman automation?
+9. What are the different waits in Selenium? When would you use each one?
+10. How do you handle alerts, popups, and iframe elements during automation?
+11. How do you validate a JSON response from an API in Java?
+12. What’s the difference between Jenkins freestyle job and pipeline?
+13. Can you write a Java program to reverse a string or check for a palindrome?
+14. What’s your approach to debugging flaky or intermittent test failures?
+15. How do you integrate your automation suite with CI tools like Jenkins or GitHub Actions?
+16. Explain your experience with data-driven testing using Excel/CSV/JSON files.
+17. How do you ensure your test scripts are maintainable and reusable in the long run?
+
+𝐑𝐨𝐮𝐧𝐝 𝟑: 𝐁𝐞𝐡𝐚𝐯𝐢𝐨𝐫𝐚𝐥 𝐑𝐨𝐮𝐧𝐝
+
+1. Can you share a time when your automation test suite helped prevent a production issue?
+2. What would you do if you had to automate a new tool or application you’ve never worked on before?
+3. Describe a situation when you had very limited time to test a critical feature. How did you manage it?
+4. Tell me about a mistake you made in testing. What did you learn from it?
+5. How do you handle situations when developers reject a bug you raised as “not reproducible”?
+6. Have you ever convinced your team to adopt a new automation tool or process? How did you do it?
+
+##### Managerial Questions - GlobalLogic
+1- Open amazon with any mobile and get variants with color or price.
+	>> using findelements with loop
+2- Inheritance, access modifiers
+3- Where u have used encapsulation in framework
+4- How do you handle automation solutions, if they are taking more time like synchronization
+5- Did u come across with critical bugs in manual instead of automation testing
+6- If u have manual test case with 2 mins of execution, then why do u need to automate
+7- Given program with java array program with odd and even segragation in an array
+8- String literals and equals method
