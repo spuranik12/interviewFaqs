@@ -1,0 +1,24 @@
+package JPMInterviewPractice;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class checkTwoArraysContainSameElements {
+    public static void main(String[] args) {
+        int a[] = {1,2,7,4,3};
+        int b[] = {0,2,3,4};
+        ArrayList<Integer> al = new ArrayList<>();
+        if(a.length == b.length){
+            for(int i=0; i<a.length; i++){
+                if(a[i] == b[i]){
+                    al.add(a[i]);
+                }
+            }
+            Object[] newArr = al.toArray();
+            System.out.println(Arrays.toString(newArr));
+        }else{
+            System.out.println("Arrays size mismatch...");
+        }
+
+    }
+}
