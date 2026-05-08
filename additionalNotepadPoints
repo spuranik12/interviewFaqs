@@ -1,0 +1,49 @@
+@Test
+public void testCreateRequest(){
+
+	User user = new User();
+	user.setName("");
+	user.setId("");
+	
+	ObjectMapper obj = new ObjectMapper();
+	Response response = obj.writeValueAsString(user).post("/endpoint");
+	User newUser = response.as(User.class);
+	Assert.assertEquals(newUser.getName(), user.getName());
+}
+
+File src = ((TakeScreenshot)driver).getScreenshotAs(OutputType.File);
+FileHanlder.copy(src, new File("path of the file"));
+
+Actions action = new Actions(driver);
+action.clickAndHold(locator).moveToElement(locator).release().build().perform();
+action.doubleClick();
+
+driver.switchTo().alert();
+alert().accept();
+
+@DataProvider(name ="login")
+public Object[][] dataprovider(){
+	return new Object[]{
+	{"user1","pwd1"},
+	{"user2,"pwd2}
+	};
+}
+
+*******
+Response response = given().when().get("example.com/user");
+String name = response.jsonPath().getString("name");
+
+
+int page=1;
+Response response;
+
+do{
+response = given.queryParam("page",page).when().get("http//example.com");
+List<String> users = response.jsonPath.getList("data.id");
+page++;
+
+}
+while(response.jsonPath.getBoolean("has_more"));
+
+
+
