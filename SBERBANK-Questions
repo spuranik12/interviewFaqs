@@ -1,0 +1,92 @@
+public class Hero {
+    public String name;
+    public Hero(String name){
+        this.name = name;
+    }
+    public void fight(){
+        System.out.println("Let's fight");
+    }
+}
+
+public class Superhero extends Hero {
+    public Superhero(String name) {
+        super(name);
+    }
+    public void fly() {
+        System.out.println("Let's fly!");
+    }
+}
+
+public class Main{
+public static void main(String[] args) {
+    Hero hero1 = new Hero("Maximus");  
+    Hero hero2 = new Superhero("Superman"); 
+    hero1.fight(); 
+    hero2.fight(); 
+    hero2.fly();
+
+}
+}
+
+
+public class Derived 
+{
+    public void getDetails()
+    {
+        System.out.println("Derived class");
+    }
+}
+
+public class Test extends Derived
+{
+    protected void getDetails()
+    {
+        System.out.println("Test class");
+    }
+
+public static void main(String[] args)
+    {
+        Derived obj = new Test();
+        obj.getDetails(); 
+    }
+}
+
+
+
+
+getStatus API that returns two possible statuses: Completed and InProgress. Your implementation needs to handle the following scenarios:
+
+
+1. If the API response status is Completed , you should navigate to the UI and validate that the status displayed there is also Completed.
+
+
+However, keep in mind that there may be a slight delay before the API status reflects in the UI.
+
+
+2. If the API response status is InProgress , you need to check the status for a maximum of 5 minutes. If the status remains InProgress for longer than 5 minutes, you should throw an exception to the
+
+
+>> API 1: 
+public void testAPi(){
+long startTime = System.currentTimeMillis();
+while(startTime<endTime){
+Response resp = given().when().get().then().body().extract().response();
+string status = resp.jsonPath().getStatus();
+if(status.equals(inProgress)){
+	Thread.sleep(5000);
+	
+}
+}
+}
+
+>> Selen1:
+if(status.equals("Completed") || status.equals("InProgress")){
+	driver.navigate("//..");
+	WebDriverWait wait = new WebDriverWait(driver, DurationsOfSeconds(10));
+	wait.until(ExpectedConditions.visibi
+	String celltext=driver.findElement(By.locator(id)).getText();
+	Assert.asssertEquals(celltext, status);
+}
+
+
+
