@@ -1,0 +1,15 @@
+package trickyExceptionPrograms;
+
+public class Exception1 {
+    public static void main(String[] args) {
+        try {
+            int i=9/0;
+            System.out.println(i);
+            //return; /* if uncommented then last line of print in unreachable */
+        } catch (Exception e) {
+            System.out.println("exception caught");
+            return;
+        }
+        System.out.println("task completed");
+    }
+}
